@@ -1,0 +1,218 @@
+.mobiform {
+width: 100%;
+float: left;
+}
+
+.mobiform  lable {
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 5px 10px 0px 0;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+	float:left;
+	color: #222;
+	font-size: 14px;
+}
+.mobiform .row {width:100%; float:left; padding-bottom: 31px;}
+.plug-title {
+    color: #178314;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.83em 0;
+    float: left;
+    width: 100%;
+}
+.plug-subtitle {
+	font-size: 1.3em;
+	font-weight: 600;
+}
+.success {
+	width: 100%;
+	float: left;
+	background: #d5eed0;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #1d800a;
+	max-width: 561px;
+	color: #1d800a;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.error {
+	width: 100%;
+	float: left;
+	background: #f6c1c1;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #dc0707;
+	max-width: 561px;
+	color: #dc0707;
+}
+.mobiform  input, .mobiform textarea, .mobiform select {
+    width: 100%;
+    max-width: 351px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="radio"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    color: #333;
+    outline: 0 none;
+    transition: border-color 0.05s ease-in-out 0s;
+}
+.mobiform input, .mobiform select {
+    margin: 1px;
+    padding: 3px 5px;
+    height: 27px;
+}
+.mobiform input, .mobiform select, .mobiform textarea {
+    border-radius: 0;
+    font-size: 14px;
+}
+.mobiform button, .mobiform input, .mobiform select, .mobiform textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.mobiform input, .mobiform textarea {
+    box-sizing: border-box;
+	margin-bottom:25px;
+}
+
+.mobiform input.send-btn {
+    background: none repeat scroll 0 0 #2ea2cc;
+    border-color: ;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #0074a2;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+    min-width: 100px;
+    width: auto;
+}
+
+.mobiform input.send-btn:hover {
+    background: none repeat scroll 0 0 #1e8cbe;
+    border-color: #0074a2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+    color: #fff;
+}
+.first_title {
+    background-color: #fff;
+    border-left: 4px solid #ffba00;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 20px 15px 0px;
+    padding: 11px 15px 5px;
+    text-align: left;
+}
+.first_title p {
+margin: 0 0 7px;
+line-height: 24px;
+}
+
+ 
+.first_title li{
+	margin: 0;
+}
+.first_title ul {
+	margin-top: 10px;
+}
+.plug-footer {
+	float: left;
+	width: 100%;
+}
+.page-title {
+	 padding: 15px 0 5px 0;
+	 font-weight: 700;
+	 float: left;
+}
+.help-icon {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: middle;
+	border: 1px solid #ffb900;
+	background: #ffb900;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-align: center;
+	color: #222;
+	}
+	.help-icon:after {
+		content: "?";
+		display: inline-block;
+		font-weight: 600;
+		margin: 2px 0px 0 0;
+	}
+	.help-icon:hover {
+		transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out;
+		border-color: #2ea2cc;
+		background: #2ea2cc;
+		color: #fff;
+	}
+	.pricing {
+		color: #fff;
+		font-weight: 700;
+		display: block;
+		max-width: 560px;
+		width: 100%;
+		border-radius: 5px;
+		background: #2ea2cc;
+		padding: 15px;
+		box-sizing: border-box;
+		margin: 25px 0;
+	}
+	.pricing a {
+		font-size: 15px;
+		font-weight: normal;
+		display: block;
+		margin-top: 10px;
+		color: #fff;
+	}
+	.pricing a:hover {
+		color: #000;
+	}
+@media only screen and (max-width: 783px) {  
+  .mobiform lable {
+  	width: 100%;
+  	padding-bottom: 8px;
+  }
+  .mobiform input, .mobiform select {
+  	padding: 7px 10px;
+  	width: 98%;
+  	max-width: inherit;
+  	box-sizing: border-box;
+  	height: 40px;
+  }
+.mobiform textarea, .mobiform .chat-area {
+	padding: 7px 10px;
+  	width: 97% !important;
+  	max-width: inherit;
+  	box-sizing: border-box
+}
+.success, .error {
+	max-width: inherit;
+	width: 97%;
+}
+ }
