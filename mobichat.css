@@ -1,0 +1,378 @@
+.mobiform {
+width: 100%;
+float: left;
+}
+
+.mobiform  lable {
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 5px 10px 0px 0;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+	float:left;
+	color: #222;
+	font-size: 14px;
+}
+.mobiform .row {width:100%; float:left; padding-bottom: 31px;}
+.plug-title {
+    color: #178314;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.83em 0;
+    float: left;
+    width: 100%;
+}
+.plug-subtitle {
+	font-size: 1.3em;
+	font-weight: 600;
+}
+.success {
+	width: 100%;
+	float: left;
+	background: #d5eed0;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #1d800a;
+	max-width: 561px;
+	color: #1d800a;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.error {
+	width: 100%;
+	float: left;
+	background: #f6c1c1;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #dc0707;
+	max-width: 561px;
+	color: #dc0707;
+}
+.mobiform  input, .mobiform textarea, .mobiform select {
+    width: 100%;
+    max-width: 351px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="radio"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+    color: #333;
+    outline: 0 none;
+    transition: border-color 0.05s ease-in-out 0s;
+}
+.mobiform input, .mobiform select {
+    margin: 1px;
+    padding: 3px 5px;
+    height: 27px;
+}
+.mobiform input, .mobiform select, .mobiform textarea {
+    border-radius: 0;
+    font-size: 14px;
+}
+.mobiform button, .mobiform input, .mobiform select, .mobiform textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.mobiform input, .mobiform textarea {
+    box-sizing: border-box;
+}
+
+.mobiform input.send-btn {
+    background: none repeat scroll 0 0 #2ea2cc;
+    border-color: ;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #0074a2;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 10px 1px;
+    text-decoration: none;
+    white-space: nowrap;
+    min-width: 100px;
+    width: auto;
+}
+
+.mobiform input.send-btn:hover {
+    background: none repeat scroll 0 0 #1e8cbe;
+    border-color: #0074a2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+    color: #fff;
+}
+.first_title {
+    background-color: #fff;
+    border-left: 4px solid #ffba00;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 20px 15px 0px;
+    padding: 11px 15px 5px;
+    text-align: left;
+}
+.first_title p {
+margin: 0 0 7px;
+line-height: 24px;
+}
+
+ input[type=radio],
+	    input[type=checkbox] {
+	        display: none;
+	        visibility: hidden;
+	    }
+	    label{
+	    	text-transform:uppercase;
+	    }
+	    label, label:before, .radio-switch, .radio-switch:before{
+	    	-webkit-transition:all 140ms ease-in-out;
+	    	transition:all 140ms ease-in-out;
+	        cursor:pointer;
+	    }
+	    /*::selection{ background-color: transparent;}
+		::moz-selection{ background-color: transparent;}
+		::webkit-selection{ background-color: transparent;}*/
+	    .radio-group,
+	    .check-group {
+	        position: relative;
+	        padding: 5px 5px 5px 0;
+	        height: 43px;
+	    }
+	    .mobiform .chat-area {
+	    	max-width: 560px;
+	    	width: 100% !important;
+	    	margin: 15px 0 25px;
+	    	height: 120px !important;
+	    }
+	    .radio-group label {
+	        position: absolute;
+	        width: 100px;
+	        height: 35px;
+	        line-height:35px;
+	    }
+	    input[type=radio]:checked + label {
+	        z-index: -1;
+	    }
+	    /*
+	    input[type=radio] + label:first-of-type {
+	    	color:#fa4;
+	    }
+	    input[type=radio] + label:last-of-type {
+	    	color:#4af;
+	    }*/
+	    input[type=radio]:checked + label:first-of-type {
+	    	color:#ffba00;
+	    }
+	    input[type=radio]:checked + label:last-of-type {
+	    	color:#2ea2cc;
+	    }
+	    .radio-group label:first-of-type span {
+	        float: left;
+	    }
+	    .radio-group label:last-of-type {
+	    	margin-left:0px;
+	        float: right;
+	        text-align:right;
+	    }
+	    .radio-switch {
+	        position: absolute;
+	        z-index: -1;
+	        width: 100px;
+	        height: 35px;
+	        margin-left: 0px;
+	        border-radius: 5px;
+	        background-color: #ffba00;
+	        padding: 2px;
+	    }
+	    .radio-switch:before {
+	        position: absolute;
+	        top: 2px;
+	        display: block;
+	        width: 45px;
+	        content: 'ON';
+	        border-radius: 3px;
+	        background-color: #FFF;
+	        padding-top: 10px;
+	        height: 35px;
+	        box-sizing: border-box;
+	        text-align: center;
+	        font-size: 12px;
+	        font-weight: 700;
+	    }
+	    input#cat:checked ~ .radio-switch {
+	        background-color: #2ea2cc;
+	    }
+	    input#cat:checked ~ .radio-switch:before {
+	        right: 2px;
+	        content: "OFF";
+	        height: 35px;
+	        padding-top: 10px;
+	        text-align: center;
+	        font-size: 12px;
+	        box-sizing: border-box;
+	    }
+	    .check-group {
+	        margin-top: 100px;
+	        width: 150px;
+	    }
+	    .check-group label>span {
+	        position: absolute;
+	        z-index: 2;
+	        background: #d34836;
+	        border-radius: 30px;
+	        width: 80px;
+	        height: 35px;
+	        margin: 0 0 0 40px;
+	        padding: 2px;
+	    }
+	    .check-group label>span:before {
+	        content: "ON";
+	        display: block;
+	        border-radius: 30px;
+	        width: 40px;
+	        height: 40px;
+	        background-color: #FFF;
+	    }
+	    input[type=checkbox]:checked + label>span{
+	        background-color: #79bf6d;
+	    }
+	    .check-group label:before,
+	    .check-group label:after {
+	        position: absolute;
+	        text-transform: uppercase;
+	        height:44px;
+	        line-height:45px;
+	    }
+	    .check-group label:before {
+	        content: "No";
+	        left: 15px;
+	    }
+	    .check-group label:after {
+	        content: "Yes";
+	        right: -12px;
+	    }
+		input[type=checkbox] ~ label:before{
+			color:#d34836;
+		}
+		input[type=checkbox]:checked ~ label:before{
+			color:slategrey;
+		}
+		input[type=checkbox]:checked ~ label:after{
+			color:#79bf6d;
+		}/*
+		input[type=checkbox] ~ label:after,
+		input[type=checkbox]:checked ~ label:after{
+			color:#79bf6d;
+		}*/
+		input[type=checkbox]:checked ~ label:after,
+		input[type=checkbox] ~ label:before{
+			pointer-events:none
+		}
+		input[type=checkbox]:checked ~ label:before{
+			pointer-events:all;
+			}
+
+	    input[type=checkbox]:checked + label>span:before {
+	        float: right;
+	    }
+.first_title li{
+	margin: 0;
+}
+.first_title ul {
+	margin-top: 10px;
+}
+.plug-footer {
+	float: left;
+	width: 100%;
+}
+.page-title {
+	 padding: 15px 0 5px 0;
+	 font-weight: 700;
+	 float: left;
+}
+.help-icon {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: middle;
+	border: 1px solid #ffb900;
+	background: #ffb900;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-align: center;
+	color: #222;
+	}
+	.help-icon:after {
+		content: "?";
+		display: inline-block;
+		font-weight: 600;
+		margin: 2px 0px 0 0;
+	}
+	.help-icon:hover {
+		transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out;
+		border-color: #2ea2cc;
+		background: #2ea2cc;
+		color: #fff;
+	}
+	.pricing {
+		color: #fff;
+		font-weight: 700;
+		display: block;
+		max-width: 560px;
+		width: 100%;
+		border-radius: 5px;
+		background: #2ea2cc;
+		padding: 15px;
+		box-sizing: border-box;
+		margin: 25px 0;
+	}
+	.pricing a {
+		font-size: 15px;
+		font-weight: normal;
+		display: block;
+		margin-top: 10px;
+		color: #fff;
+	}
+	.pricing a:hover {
+		color: #000;
+	}
+@media only screen and (max-width: 783px) {  
+  .mobiform lable {
+  	width: 100%;
+  	padding-bottom: 8px;
+  }
+  .mobiform input, .mobiform select {
+  	padding: 7px 10px;
+  	width: 98%;
+  	max-width: inherit;
+  	box-sizing: border-box;
+  	height: 40px;
+  }
+.mobiform textarea, .mobiform .chat-area {
+	padding: 7px 10px;
+  	width: 97% !important;
+  	max-width: inherit;
+  	box-sizing: border-box
+}
+.success, .error {
+	max-width: inherit;
+	width: 97%;
+}
+ }
+
+
+
